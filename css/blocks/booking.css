@@ -1,0 +1,270 @@
+.booking {
+    margin-top: 186px;
+}
+.booking_container {
+    max-width: 1114px;
+    margin: 0 auto;
+}
+.booking_subtitle {
+    font-family: Poppins,sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    color: #5E6282;
+    margin-bottom: 15px;
+}
+.booking_flex {
+    display: flex;
+
+}
+.booking_title {
+    max-width: 511px;
+    font-family: Volkhov,sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 64px;
+    text-transform: capitalize;
+    color: #14183E;
+    margin-bottom: 31px;
+}
+.booking_inner {
+    max-width: 395px;
+}
+.booking_inner-row {
+    display: flex;
+    align-items: center;
+}
+.booking_inner-row + .booking_inner-row{
+    margin-top: 48px;
+}
+.booking_inner-info {
+    margin-left: 21px;
+}
+.booking_inner-title {
+    font-family: Poppins,sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 124.5%;
+    color: #5E6282;
+    margin-bottom: 4px;
+}
+.booking_inner-text {
+    font-family: Poppins,sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 124.5%;
+    color: #5E6282;
+}
+.booking_column + .booking_column{
+    margin-left: 118px;
+}
+.booking_column:last-child{
+    padding-top: 59px;
+}
+.booking_column-card {
+    width: 370px;
+    height: 400px;
+    box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.02), 0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0151852), 0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0121481), 0px 20px 13px rgba(0, 0, 0, 0.01), 0px 8.14815px 6.51852px rgba(0, 0, 0, 0.00785185), 0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00481481);
+    border-radius: 26px;
+}
+.booking_column-img {
+    padding-top: 20px;
+    padding-left: 24px;
+    padding-right: 25px;
+}
+.booking_column-img img{
+    border-radius: 24px;
+    -webkit-border-radius: 24px;
+    -moz-border-radius: 24px;
+    -ms-border-radius: 24px;
+    -o-border-radius: 24px;
+}
+.booking_column-body {
+    padding-top: 26px;
+    padding-left: 25px;
+}
+.booking_column-title {
+    font-family: Poppins,sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 124.5%;
+    letter-spacing: 0.015em;
+    color: #080809;
+    margin-bottom: 13px;
+}
+.booking_column-body__row{
+    display: flex;
+}
+ span{
+    /* display: inline-block; */
+    margin-right: 16px;
+    font-family: Poppins,sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 124.5%;
+    letter-spacing: -0.005em;
+    color: #84829A;
+}
+p{
+    margin-left: 16px;
+    font-family: Poppins,sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 124.5%;
+    letter-spacing: -0.02em;
+    color: #84829A;
+}
+.booking_column-body__row-icon{
+    margin-top: 21px;
+    display: flex;
+    max-width: 139px;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 31px;
+}
+.booking_column-body__row-heart {
+    transform: translateX(140px);
+    -webkit-transform: translateX(140px);
+    -moz-transform: translateX(140px);
+    -ms-transform: translateX(140px);
+    -o-transform: translateX(140px);
+}
+.heart-notfill.active{
+    display:block;
+}
+.heart-fill{
+    display: none;
+}
+.heart-fill.active{
+    display: block;
+}
+.heart-notfill{
+    display: none;
+}
+
+.booking_column-hover{
+    position: relative;
+    cursor: pointer;
+    
+}
+.booking_ongoing {
+    position: absolute;
+    max-width: 263px;
+    box-shadow: 0 0 100px rgb(0 0 0 / 25%);
+    top: 60%;
+    left: 60%;
+    padding-top: 17px;
+    padding-left: 7px;
+    padding-right: 75px;
+    padding-bottom: 22px;
+    border-radius: 18px;
+    -webkit-border-radius: 18px;
+    -moz-border-radius: 18px;
+    -ms-border-radius: 18px;
+    -o-border-radius: 18px;
+    opacity: 1;
+    transform: scale(0);
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    -ms-transform: scale(0);
+    -o-transform: scale(0);
+    transition: all .5s;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
+}
+.booking_column-hover:hover .booking_ongoing{
+    opacity: 1;
+    transform: scale(1);
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+}
+.is-show{
+    opacity: 1;
+    transform: scale(1);
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+}
+.booking_ongoing-flex {
+    display: flex;
+}
+.booking_ongoing-img {
+    width: 74px;
+    height: 66px;
+}
+.booking_ongoing-frame{
+    width: 50px;
+    height: 50px;
+    
+}
+.booking_ongoing-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.booking_ongoing-info {
+    text-align: left;
+    padding-left: 11px;
+}
+.bookimg_ongoing-subtitle {
+    font-family: Poppins,sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 124.5%;
+    letter-spacing: -0.035em;
+    color: #84829A;
+    margin-bottom: 6px;
+}
+.booking_ongoing-title {
+    font-family: Poppins,sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 124.5%;
+    letter-spacing: -0.015em;
+    color: #080809;
+    margin-bottom: 14px;
+}
+.booking_ongoing-complete {
+    margin-left: 0;
+    margin-bottom: 10px;
+}
+.booking_ongoing-progres {
+    width: 150px;
+    height: 5px;
+    overflow: hidden;
+}
+.booking_ongoing-range {
+    display: block;
+    width: 70px;
+    height: 5px;
+    background-color: #8A79DF;
+    transform: translateX(-100%);
+    -webkit-transform: translateX(-100%);
+    -moz-transform: translateX(-100%);
+    -ms-transform: translateX(-100%);
+    -o-transform: translateX(-100%);
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+}

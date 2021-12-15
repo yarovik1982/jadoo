@@ -1,0 +1,13 @@
+
+@font-face {
+    font-family: 'Volkhov';
+    src: url('Volkhov-Bold.eot');
+    src: local('Volkhov Bold'), local('Volkhov-Bold'),
+        url('Volkhov-Bold.eot?#iefix') format('embedded-opentype'),
+        url('Volkhov-Bold.woff2') format('woff2'),
+        url('Volkhov-Bold.woff') format('woff'),
+        url('Volkhov-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+

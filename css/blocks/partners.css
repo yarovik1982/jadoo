@@ -1,0 +1,21 @@
+.partners {
+    margin-top: 98px;
+}
+.partners_container {
+    max-width: 1073px;
+    margin: 0 auto;
+}
+.partners_flex {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+.partners_logo {
+    flex-grow: 1;
+    cursor: pointer;
+    max-width: 200px;
+   
+}
+

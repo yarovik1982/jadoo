@@ -1,0 +1,102 @@
+.testimonials{
+    margin-top: 200px;
+}
+
+.testimonials_container {
+    max-width: 1165px;
+    margin: 0 auto;
+}
+.testimonials_flex {
+    display: flex;
+}
+.testimonials_column-43 {
+    flex:1 1 43%;
+}
+.testimonials_subtitle {
+    font-family: Poppins,sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    text-transform: uppercase;
+    color: #5E6282;
+    margin-bottom: 8px;
+}
+.testimonials_title {
+    font-family: Volkhov,sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 64px;
+    text-transform: capitalize;
+    color: #14183E;
+    max-width: 409px;
+}
+.testimonials_column-57 {
+    flex:1 1 57%;
+    position: relative;
+}
+
+.swiper-slide_body {
+    position: relative;
+}
+.swiper-slide_photo {
+    width: 68px;
+    height: 68px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.swiper-slide_img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.swiper-slide_testimonials {
+    padding-top: 34px;
+    padding-left: 37px;
+    padding-bottom: 34px;
+    max-width: 504px;
+    box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.02), 0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0151852), 0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0121481), 0px 20px 13px rgba(0, 0, 0, 0.01), 0px 8.14815px 6.51852px rgba(0, 0, 0, 0.00785185), 0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00481481);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.swiper-slide_quote {
+    padding-top: 28px;
+    padding-left: 34px;
+    margin-bottom: 34px;
+    max-width: 402px;
+    font-family: Poppins,sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 32px;
+    color: #5E6282;
+}
+.swiper-slide_name {
+    padding-left: 34px;
+    margin-bottom: 5px;
+    font-family: Poppins,sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    color: #5E6282;
+}
+.swiper-slide_location {
+    padding-left: 34px;
+    font-family: Poppins,sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #5E6282;
+}

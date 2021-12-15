@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link
+		href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Poppins:wght@400;500;600;700&family=Roboto&display=swap"
+		rel="stylesheet">
+	<link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css">
+	<link rel="stylesheet" href="./fonts/google-sans/style.css">
+	<link rel="stylesheet" href="./fonts/volkhov/stylesheet.css">
+	<link rel="stylesheet" href="./css/blocks/header.css">
+	<link rel="stylesheet" href="./css/blocks/hero.css">
+	<link rel="stylesheet" href="./css/blocks/services.css">
+	<link rel="stylesheet" href="./css/blocks/destination.css">
+	<link rel="stylesheet" href="./css/blocks/booking.css">
+	<link rel="stylesheet" href="./css/blocks/trstimonials.css">
+	<link rel="stylesheet" href="/css/blocks/partners.css">
+	<link rel="stylesheet" href="/css/blocks/subscribe.css">
+	<link rel="stylesheet" href="/css/blocks/footer.css">
+	<link rel="stylesheet" href="./css/style.css">
+	<title>Document</title>
+	<style>
+		.swiper {
+			width: 664px;
+			height: 356px;
+			position: relative;
+		}
+
+		.swiper-pagination-castom {
+			display: flex;
+			max-width: 87px;
+			justify-content: space-between;
+			margin: 0 auto;
+			padding-bottom: 20px;
+		}
+
+		.swiper-pagination-bullet {
+			/* background: #E5E5E5; */
+			background: red;
+			width: 12px;
+			height: 12px;
+		}
+
+		.swiper-pagination-bullet-active {
+			background: #39425D;
+		}
+
+		.btn-prev {
+			text-align: end;
+			transform: translateY(-213px);
+			cursor: pointer;
+
+		}
+
+		.btn-next {
+			text-align: end;
+			transform: translateY(-141px);
+			cursor: pointer;
+		}
+	</style>
+
+</head>
+
+<body>
+	
+	<div class="body_bg"></div>
+	<header class="header">
+		<div class="header_top">
+			<div class="container">
+				<nav class="header_nav">
+					<div class="header_logo">
+						<img src="./images/bg/Logo.png" alt="Logo" class="header_logo-img">
+					</div>
+					<ul class="header_list">
+						<li class="header_item"><a href="#" target="_blank" class="header_link">Desitnations</a>
+						</li>
+						<li class="header_item"><a href="#" target="_blank" class="header_link">Hotels</a></li>
+						<li class="header_item"><a href="#" target="_blank" class="header_link">Flights</a></li>
+						<li class="header_item"><a href="#" target="_blank" class="header_link">Bookings</a></li>
+					</ul>
+					<div class="header_user">
+						<a href="#" class="header_user-link">Login</a>
+						<a href="#" class="header_user-link">Sign up</a>
+						<div class="header_select-lang">
+							<select name="lang" id="lang">
+								<option value="en">EN</option>
+								<option value="ru">RU</option>
+							</select>
+						</div>
+					</div>
+				</nav>
+			</div>
+		</div>
+	</header>
+
+	<main>
+		<section class="hero">
+			<div class="container">
+				<div class="hero_wrapper">
+					<div class="hero_column-left">
+						<div class="hero_content">
+							<p class="hero_text">
+								Best Destinations around the world
+							</p>
+							<h1 class="hero_offer">
+								Travel, enjoy
+								and live a new
+								and full life
+							</h1>
+							<p class="hero_description">
+								Built Wicket longer admire do barton vanity itself do in it.
+								Preferred to sportsmen it engrossed listening.
+								Park gate sell they west hard for the.
+							</p>
+							<div class="hero_btns">
+								<button class="hero_more">Find out more</button>
+								<div class="hero_player">
+									<a href="#" class="hero_play">
+										<img src="./images/icons/Play-button.svg" alt="Button Play">
+										<span>Play Demo</span>
+									</a>
+
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="hero_column-right">
+						<div class="hero_column-body">
+							<img src="./images/content/Traveller-1.png" alt="">
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="services">
+			
+			<div class="container">
+				<div class="services_container">
+					<div class="services_animation">
+						<div class="animation_point">+</div>
+						<div class="animation_point">+</div>
+						<div class="animation_point">+</div>
+						<div class="animation_point">+</div>
+						<div class="animation_point">+</div>
+						<div class="animation_point">+</div>
+						<div class="animation_point">+</div>
+						<div class="animation_point">+</div>
+						<div class="animation_point">+</div>
+						<div class="animation_point">+</div>
+						<div class="animation_point">+</div>
+						<div class="animation_point">+</div>
+						<div class="animation_point">+</div>
+						<div class="animation_point">+</div>
+						<div class="animation_point">+</div>
+						<div class="animation_point">+</div>
+						<div class="animation_point">+</div>
+						<div class="animation_point">+</div>
+						<div class="animation_point">+</div>
+						<div class="animation_point">+</div>
+						<div class="animation_point">+</div>
+						<div class="animation_point">+</div>
+					</div>
+					<div class="services_header">
+						<h3 class="services_category">
+							CATEGORY
+						</h3>
+						<h2 class="services_title title">
+							We Offer Best Services
+						</h2>
+						<div class="services_flex">
+
+
+							<div class="services_card">
+
+								<div class="card_images">
+									<img src="./images/icons/icon_rls.svg" alt="Icon Card" class="card_img">
+								</div>
+								<h4 class="card_title">Calculated Weather </h4>
+								<p class="card_text">
+									Built Wicket longer admire do barton vanity itself do in it.
+								</p>
+							</div>
+
+
+							<div class="services_card">
+								<div class="card_images">
+									<img src="./images/icons/card-pline.svg" alt="Icon Card" class="card_img">
+								</div>
+								<h4 class="card_title">Best Flights</h4>
+								<p class="card_text">
+									Engrossed listening. Park gate sell they west hard for the.
+								</p>
+							</div>
+							<div class="services_card">
+								<div class="card_images">
+									<img src="./images/icons/card-Mphome.png" alt="Icon Card" class="card_img">
+								</div>
+								<h4 class="card_title">Local Events</h4>
+								<p class="card_text">
+									Barton vanity itself do in it. Preferd to men it engrossed listening.
+								</p>
+							</div>
+							<div class="services_card">
+								<div class="card_images">
+									<img src="./images/icons/card-setting.svg" alt="Icon Card" class="card_img">
+								</div>
+								<h4 class="card_title">Customization</h4>
+								<p class="card_text">
+									We deliver outsourced
+									aviation services for
+									military customers
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="dest">
+			<div class="container">
+				<div class="dest_container">
+					<h3 class="dest_subtitle">
+						Top Selling
+					</h3>
+					<h2 class="daest_title title">
+						Top Destinations
+					</h2>
+					<div class="dest_flex">
+						<a class="dest_card">
+							<div class="dest_card-img">
+								<img src="./images/content/colizey.png" alt="" class="dest_card-image">
+							</div>
+							<div class="dest_card-footer">
+								<div class="dest_card-row-between">
+									<span class="dest_card-dest">Rome, Italty</span>
+									<span class="dest_card-price">$5,42k</span>
+								</div>
+								<div class="dest_card-row-left">
+									<span class="dest_card-nav">
+										<img src="./images/icons/navigation.svg" alt="">
+									</span>
+									<span class="dest_card-duration">10 Days Trip</span>
+								</div>
+							</div>
+						</a>
+						<a class="dest_card">
+							<div class="dest_card-img">
+								<img src="./images/content/london.jfif" alt="" class="dest_card-image">
+							</div>
+							<div class="dest_card-footer">
+								<div class="dest_card-row-between">
+									<span class="dest_card-dest">Rome, Italty</span>
+									<span class="dest_card-price">$5,42k</span>
+								</div>
+								<div class="dest_card-row-left">
+									<span class="dest_card-nav">
+										<img src="./images/icons/navigation.svg" alt="">
+									</span>
+									<span class="dest_card-duration">10 Days Trip</span>
+								</div>
+							</div>
+						</a>
+						<a class="dest_card">
+							<div class="dest_card-img">
+								<img src="images/content/khelsinky.png" alt="" class="dest_card-image">
+							</div>
+							<div class="dest_card-footer">
+								<div class="dest_card-row-between">
+									<span class="dest_card-dest">Rome, Italty</span>
+									<span class="dest_card-price">$5,42k</span>
+								</div>
+								<div class="dest_card-row-left">
+									<span class="dest_card-nav">
+										<img src="./images/icons/navigation.svg" alt="">
+									</span>
+									<span class="dest_card-duration">10 Days Trip</span>
+								</div>
+							</div>
+						</a>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="booking">
+			<div class="container">
+				<div class="booking_container">
+					<h3 class="booking_subtitle">
+						Easy and Fast
+					</h3>
+					<div class="booking_flex">
+						<div class="booking_column">
+							<h2 class="booking_title">
+								Book your next trip
+								in 3 easy steps
+							</h2>
+							<div class="booking_inner">
+								<div class="booking_inner-row">
+									<div class="booking_inner-img">
+										<img src="/images/icons/icon-choose.svg" alt="">
+									</div>
+									<div class="booking_inner-info">
+										<h4 class="booking_inner-title">
+											Choose Destination
+										</h4>
+										<p class="booking_inner-text">
+											Lorem ipsum dolor sit amet, consectetur
+											adipiscing elit. Urna, tortor tempus.
+										</p>
+									</div>
+								</div>
+								<div class="booking_inner-row">
+									<div class="booking_inner-img">
+										<img src="/images/icons/icon-water-sport.svg" alt="">
+									</div>
+									<div class="booking_inner-info">
+										<h4 class="booking_inner-title">
+											Make Payment
+										</h4>
+										<p class="booking_inner-text">
+											Lorem ipsum dolor sit amet, consectetur
+											adipiscing elit. Urna, tortor tempus.
+										</p>
+									</div>
+								</div>
+								<div class="booking_inner-row">
+									<div class="booking_inner-img">
+										<img src="/images/icons/auto.svg" alt="">
+									</div>
+									<div class="booking_inner-info">
+										<h4 class="booking_inner-title">
+											Reach Airport on Selected Date
+										</h4>
+										<p class="booking_inner-text">
+											Lorem ipsum dolor sit amet, consectetur
+											adipiscing elit. Urna, tortor tempus.
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="booking_column booking_column-hover">
+							<!-- <div class="boking_column-wrap"> -->
+
+							<div class="booking_ongoing">
+								<div class="booking_ongoing-flex">
+									<div class="booking_ongoing-img">
+										<div class="booking_ongoing-frame">
+											<img src="/images/content/69c796b13d6446c8177e79c2a2249ca6.png" alt=""
+												class="booking_ongoing-image">
+										</div>
+									</div>
+									<div class="booking_ongoing-info">
+										<h4 class="bookimg_ongoing-subtitle">Ongoing</h4>
+										<h3 class="booking_ongoing-title">Trip to rome</h3>
+										<p class="booking_ongoing-complete">40% <span> &nbsp; completed</span></p>
+										<div class="booking_ongoing-progres">
+											<span class="booking_ongoing-range"></span>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="booking_column-card">
+								<div class="booking_column-img">
+									<img src="./images/content/greece.jfif" alt="">
+								</div>
+								<div class="booking_column-body">
+									<h4 class="booking_column-title">
+										Trip To Greece
+									</h4>
+									<div class="booking_column-body__row">
+										<span>
+											14-29 June
+										</span>
+										<span>by Robbin joseph</span>
+									</div>
+									<div class="booking_column-body__row-icon">
+										<a href="#" class="booking_column-body__link">
+											<img src="./images/icons/LEAF.svg" alt="">
+										</a>
+										<a href="#" class="booking_column-body__link">
+											<img src="/images/icons/map-icon.svg" alt="">
+										</a>
+										<a href="#" class="booking_column-body__link">
+											<img src="/images/icons/send.svg" alt="">
+										</a>
+									</div>
+									<div class="booking_column-body__row">
+										<a href="#" class="booking_column-body__link">
+											<img src="/images/icons/building.svg" alt="">
+										</a>
+										<p>24 people going</p>
+										<button class="booking_column-body__row-heart">
+
+											<img class="heart-notfill active" id="like" src="/images/icons/favorite.svg"
+												alt="">
+											<img class="heart-fill" id="dislike" src="/images/icons/favorite-active.svg"
+												alt="">
+											<!-- <svg width="24" height="22" viewBox="0 0 24 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+																<path d="M12 8.22892C12.234 7.10892 13.547 1.99992 17.382 1.99992C19.602 1.99992 22 3.55092 22 7.00292C22 10.9099 18.373 15.4729 12 19.6319C5.627 15.4729 2 10.9099 2 7.00292C2 3.51892 4.369 1.99792 6.577 1.99792C10.5 1.99792 11.722 7.12392 12 8.22892ZM0 7.00292C0 11.0709 3.06 16.4839 12 21.9999C20.94 16.4839 24 11.0709 24 7.00292C24 -0.959077 14.352 -2.02508 12 3.26592C9.662 -1.99608 0 -1.00408 0 7.00292Z" fill="#4152CA"/>
+																</svg> -->
+
+
+										</button>
+									</div>
+								</div>
+							</div>
+
+							<!-- </div> -->
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="testimonials">
+			<div class="container">
+				<div class="testimonials_container">
+					<div class="testimonials_flex">
+						<div class="testimonials_column-43">
+							<h3 class="testimonials_subtitle">
+								Testimonials
+							</h3>
+							<h2 class="testimonials_title">
+								What people say
+								about Us.
+							</h2>
+		
+						</div>
+						<div class="testimonials_column-57">
+		
+							<div class="swiper">
+		
+		
+								<div class="swiper-wrapper">
+		
+									<div class="swiper-slide">
+										<div class="swiper-slide_body">
+											<div class="swiper-slide_photo">
+												<img src="/images/content/photo-man.png" alt="" class="swiper-slide_img">
+											</div>
+											<div class="swiper-slide_testimonials">
+												<p class="swiper-slide_quote">
+													“On the Windows talking painted pasture yet its express parties use.
+													Sure last upon he same as knew next. Of believed or diverted no.”
+												</p>
+												<p class="swiper-slide_name">
+													Mike taylor
+												</p>
+												<p class="swiper-slide_location">
+													Lahore, Pakistan
+												</p>
+											</div>
+										</div>
+									</div>
+									<div class="swiper-slide">
+										<div class="swiper-slide_body">
+											<div class="swiper-slide_photo">
+												<img src="/images/content/photo-man.png" alt="" class="swiper-slide_img">
+											</div>
+											<div class="swiper-slide_testimonials">
+												<p class="swiper-slide_quote">
+													“On the Windows talking painted pasture yet its express parties use.
+													Sure last upon he same as knew next. Of believed or diverted no.”
+												</p>
+												<p class="swiper-slide_name">
+													Mike taylor
+												</p>
+												<p class="swiper-slide_location">
+													Lahore, Pakistan
+												</p>
+											</div>
+										</div>
+									</div>
+									<div class="swiper-slide">
+										<div class="swiper-slide_body">
+											<div class="swiper-slide_photo">
+												<img src="/images/content/photo-man.png" alt="" class="swiper-slide_img">
+											</div>
+											<div class="swiper-slide_testimonials">
+												<p class="swiper-slide_quote">
+													“On the Windows talking painted pasture yet its express parties use.
+													Sure last upon he same as knew next. Of believed or diverted no.”
+												</p>
+												<p class="swiper-slide_name">
+													Mike taylor
+												</p>
+												<p class="swiper-slide_location">
+													Lahore, Pakistan
+												</p>
+											</div>
+										</div>
+									</div>
+									...
+								</div>
+								<div class="swiper-pagination-castom"></div>
+								<div class="btn-prev ">
+									<img src="/images/icons/arrow-up.svg" alt="">
+								</div>
+								<div class="btn-next">
+									<img src="/images/icons/arrow-down.svg" alt="">
+								</div>
+							</div>
+		
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="partners">
+			<div class="container">
+				<div class="partners_container">
+					<div class="partners_flex">
+						<div class="partners_logo">
+							<img src="/images/partners/axon.png" alt="" class="partners_img">
+						</div>
+						<div class="partners_logo">
+							<img src="/images/partners/jetstar.png" alt="" class="partners_img">
+						</div>
+						<div class="partners_logo">
+							<img src="/images/partners/expedia.png" alt="" class="partners_img">
+						</div>
+						<div class="partners_logo">
+							<img src="/images/partners/qantas.png" alt="" class="partners_img">
+						</div>
+						<div class="partners_logo">
+							<img src="/images/partners/alitalia.png" alt="" class="partners_img">
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="subscribe">
+			<div class="container">
+				<div class="subscribe_container">
+					<div class="subscribe_bg">
+						<a href="#" class="subscribe_telegram">
+							<img src="images/icons/icon-telegram.svg" alt="" class="subscribe_telegran-icon">
+						</a>
+						<p class="subscribe_offer">
+							Subscribe to get information, latest news and other
+							interesting offers about Cobham
+						</p>
+						<form action="#" class="subscribe_form">
+							<input type="email" placeholder="Youre email" class="subscribe_mail">
+							<input type="submit" value="Subscribe" class="subscribe_subscribe">
+						</form>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+	</main>
+
+	<footer class="footer">
+		<div class="container">
+			<div class="footer_comtainer">
+				<div class="footer_flex">
+					<div class="footer_column-logo">
+						<a href="#" class="footer_logo-link">Jadoo.</a>
+						<p class="footer_logo-text">
+							Book your trip in minute, get full
+							Control for much longer.
+						</p>
+					</div>
+					<div class="footer_column-nav">
+						<ul class="footer_nav-list">
+							<li class="footer_nav-item"><a href="#" class="footer_nav-link-main">Company</a></li>
+							<li class="footer_nav-item"><a href="#" class="footer_nav-link">About</a></li>
+							<li class="footer_nav-item"><a href="#" class="footer_nav-link">Careers</a></li>
+							<li class="footer_nav-item"><a href="#" class="footer_nav-link">Mobile</a></li>
+						</ul>
+						<ul class="footer_nav-list">
+							<li class="footer_nav-item"><a href="#" class="footer_nav-link-main">Contact</a></li>
+							<li class="footer_nav-item"><a href="#" class="footer_nav-link">Help/FAQ</a></li>
+							<li class="footer_nav-item"><a href="#" class="footer_nav-link">Press</a></li>
+							<li class="footer_nav-item"><a href="#" class="footer_nav-link">Affilates</a></li>
+						</ul>
+						<ul class="footer_nav-list">
+							<li class="footer_nav-item"><a href="#" class="footer_nav-link-main">More</a></li>
+							<li class="footer_nav-item"><a href="#" class="footer_nav-link">Airlinefees</a></li>
+							<li class="footer_nav-item"><a href="#" class="footer_nav-link">Airline</a></li>
+							<li class="footer_nav-item"><a href="#" class="footer_nav-link">Low fare tips</a></li>
+						</ul>
+					</div>
+					<div class="footer_column-social">
+						<div class="footer_social-icons">
+							<a href="#" class="footer_social-link">
+								<img src="/images/icons/Facebook.svg" alt="" class="footer_social-icon">
+							</a>
+							<a href="#" class="footer_social-link">
+								<img src="/images/icons/insta.png" alt="" class="footer_social-icon">
+							</a>
+							<a href="#" class="footer_social-link">
+								<img src="/images/icons/twitter.svg" alt="" class="footer_social-icon">
+							</a>
+						</div>
+						<p class="footer_social-text">
+							Discover our app
+						</p>
+						<div class="footer_social-btns">
+							<a href="#" class="footer_social-btn__gogle">
+								<img src="/images/icons/Google-Play.png" alt="">
+							</a>
+							<a href="#" class="footer_social-btn__appstore">
+								<img src="/images/icons/Play-Store.png" alt="">
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="footer_copyrights">
+					<p class="footer_copyrights-text">
+						All rights reserved@jadoo.co
+					</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+
+	<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+	<script src="./js/script.js"></script>
+	<script src="/js/swiper.js"></script>
+</body>
+
+</html>
