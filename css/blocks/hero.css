@@ -98,8 +98,9 @@
     height: 125px;
     top: 56px;
     left: 133px;
-    background-image: url(../images/icons/pline-1.svg);
+    background-image: url(.../images/icons/pline-1.svg);
     background-repeat: no-repeat;
+    background-size: cover;
 }
 .hero_column-body::after{
     position: absolute;
@@ -108,7 +109,7 @@
     height: 125px;
     top: 103px;
     right:-18px;
-    background-image: url(../images/icons/pline-2.svg);
+    background-image: url(images/icons/pline-2.svg);
     background-repeat: no-repeat;
     z-index: -1;
 }
